@@ -1,0 +1,1449 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>青青草久久艹-草种与草坪养护实操</title>
+<meta name="description" content="青青草久久艹聚焦草种选配与草坪养护实操，整理秋播类草种子播量、修剪频率、施肥节点与越冬管理，附常见病斑判断与本地种植对照，便于对照自家地块安排作业。">
+<meta name="keywords" content="青青草久久艹">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232f6b3a'/%3E%3Cpath d='M32 52c0-14 2-24 14-32-4 14-6 22-6 32z' fill='%23bfe3a1'/%3E%3Cpath d='M32 52c0-12-2-20-12-28 3 12 4 19 4 28z' fill='%2394cf7e'/%3E%3C/svg%3E">
+<style>
+:root{
+  --green-900:#1f4a29;
+  --green-700:#2f6b3a;
+  --green-500:#4f8f52;
+  --green-300:#9ccb85;
+  --green-100:#e6f2df;
+  --earth-700:#5c4a33;
+  --earth-300:#c9b79e;
+  --paper:#fbfaf5;
+  --card:#ffffff;
+  --ink:#22261f;
+  --ink-soft:#4c5347;
+  --line:#dfe3d6;
+  --accent:#c9762a;
+  --radius-s:6px;
+  --radius-m:12px;
+  --radius-l:20px;
+  --shadow-s:0 1px 2px rgba(31,74,41,.08);
+  --shadow-m:0 6px 18px rgba(31,74,41,.10);
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:18px;
+  --space-5:26px;
+  --space-6:38px;
+  --space-7:56px;
+  --font-sans:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+  --font-serif:"Songti SC","Noto Serif SC",Georgia,serif;
+  --anchor-offset:112px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--font-sans);
+  line-height:1.75;
+  font-size:16px;
+  -webkit-text-size-adjust:100%;
+}
+h1,h2,h3,h4{margin:0;line-height:1.3;font-weight:700;}
+p{margin:0 0 var(--space-3);}
+a{color:var(--green-700);}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible{
+  outline:3px solid var(--accent);
+  outline-offset:2px;
+  border-radius:4px;
+}
+img{max-width:100%;display:block;}
+
+/* ---------- 吸顶公告条 ---------- */
+.notice-bar{
+  position:sticky;
+  top:0;
+  z-index:60;
+  background:var(--green-900);
+  color:#eaf4e2;
+  font-size:13px;
+  padding:7px 16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  flex-wrap:wrap;
+  text-align:center;
+}
+.notice-bar strong{color:#fff;}
+.notice-bar .dot{
+  width:7px;height:7px;border-radius:50%;
+  background:var(--green-300);
+  flex:none;
+  box-shadow:0 0 0 3px rgba(156,203,133,.25);
+}
+
+/* ---------- 页头 ---------- */
+.site-header{
+  position:sticky;
+  top:33px;
+  z-index:55;
+  background:rgba(251,250,245,.96);
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid var(--line);
+}
+.header-inner{
+  max-width:1180px;
+  margin:0 auto;
+  padding:10px 20px;
+  display:flex;
+  align-items:center;
+  gap:18px;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  text-decoration:none;
+  color:var(--green-900);
+  flex:none;
+}
+.brand-mark{width:38px;height:38px;flex:none;}
+.brand-text{font-size:19px;font-weight:800;letter-spacing:1px;}
+.main-nav{flex:1;min-width:0;}
+.main-nav ul{
+  list-style:none;
+  margin:0;padding:0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:2px 4px;
+}
+.main-nav a{
+  display:inline-block;
+  padding:6px 10px;
+  font-size:14px;
+  color:var(--ink-soft);
+  text-decoration:none;
+  border-radius:var(--radius-s);
+  white-space:nowrap;
+}
+.main-nav a:hover{background:var(--green-100);color:var(--green-900);}
+.nav-toggle{
+  display:none;
+  border:1px solid var(--line);
+  background:#fff;
+  color:var(--green-900);
+  padding:8px 12px;
+  border-radius:var(--radius-s);
+  font-size:14px;
+  cursor:pointer;
+}
+.header-tools{display:flex;align-items:center;gap:8px;flex:none;}
+.search-wrap{display:flex;align-items:center;gap:0;}
+.search-wrap input{
+  width:150px;
+  padding:7px 10px;
+  border:1px solid var(--line);
+  border-right:none;
+  border-radius:var(--radius-s) 0 0 var(--radius-s);
+  background:#fff;
+  font-size:14px;
+  font-family:inherit;
+}
+.search-wrap button{
+  padding:7px 12px;
+  border:1px solid var(--green-700);
+  background:var(--green-700);
+  color:#fff;
+  border-radius:0 var(--radius-s) var(--radius-s) 0;
+  cursor:pointer;
+  font-size:14px;
+}
+.search-status{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 20px;
+  font-size:13px;
+  color:var(--earth-700);
+}
+.search-status p{margin:6px 0 0;}
+mark.hit{background:#ffe9a8;color:var(--ink);padding:0 2px;border-radius:2px;}
+
+/* ---------- 首屏 ---------- */
+.hero{
+  max-width:1180px;
+  margin:0 auto;
+  padding:var(--space-6) 20px var(--space-5);
+  display:grid;
+  grid-template-columns:1.05fr .95fr;
+  gap:var(--space-6);
+  align-items:center;
+}
+.hero-eyebrow{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  font-size:13px;
+  letter-spacing:1px;
+  color:var(--green-700);
+  background:var(--green-100);
+  border:1px solid var(--green-300);
+  border-radius:999px;
+  padding:4px 12px;
+  margin-bottom:var(--space-4);
+}
+.hero h1{
+  font-size:clamp(30px,4.4vw,46px);
+  color:var(--green-900);
+  letter-spacing:1px;
+  margin-bottom:var(--space-4);
+}
+.hero-lead{
+  font-size:16px;
+  color:var(--ink-soft);
+  max-width:34em;
+}
+.hero-lead strong{color:var(--green-900);}
+.hero-actions{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:var(--space-4);
+}
+.btn{
+  display:inline-block;
+  padding:11px 20px;
+  border-radius:var(--radius-s);
+  text-decoration:none;
+  font-size:15px;
+  font-weight:600;
+  transition:transform .16s ease, background .16s ease;
+}
+.btn-primary{background:var(--green-700);color:#fff;}
+.btn-primary:hover{background:var(--green-900);transform:translateY(-2px);}
+.btn-ghost{border:1px solid var(--green-700);color:var(--green-700);background:#fff;}
+.btn-ghost:hover{background:var(--green-100);transform:translateY(-2px);}
+.hero-stats{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:var(--space-5);
+  max-width:420px;
+}
+.hero-stats div{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:10px 12px;
+  box-shadow:var(--shadow-s);
+}
+.hero-stats b{display:block;font-size:21px;color:var(--green-900);line-height:1.2;}
+.hero-stats span{font-size:12px;color:var(--ink-soft);}
+.hero-visual{
+  position:relative;
+  border-radius:var(--radius-l);
+  background:linear-gradient(160deg,#eaf3e1,#cfe6bd 55%,#b4d9a0);
+  padding:14px;
+  box-shadow:var(--shadow-m);
+}
+.hero-visual svg{width:100%;height:auto;display:block;border-radius:14px;}
+.hero-tag{
+  position:absolute;
+  left:26px;bottom:26px;
+  background:rgba(255,255,255,.94);
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:8px 14px;
+  font-size:13px;
+  color:var(--green-900);
+  box-shadow:var(--shadow-s);
+}
+
+/* ---------- 主内容布局 ---------- */
+.layout{
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 20px var(--space-7);
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 300px;
+  gap:var(--space-6);
+  align-items:start;
+}
+main{min-width:0;}
+
+section[id]{scroll-margin-top:var(--anchor-offset);}
+.section{
+  background:var(--card);
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:var(--space-5);
+  margin-bottom:var(--space-5);
+  box-shadow:var(--shadow-s);
+}
+.section-head{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+  margin-bottom:var(--space-4);
+  padding-bottom:10px;
+  border-bottom:1px dashed var(--line);
+}
+.section-head h2{
+  font-size:21px;
+  color:var(--green-900);
+  letter-spacing:.5px;
+}
+.section-head .hint{font-size:12.5px;color:var(--ink-soft);}
+h3{font-size:17px;color:var(--green-900);margin:var(--space-4) 0 var(--space-2);}
+h4{font-size:15px;color:var(--earth-700);margin:0 0 6px;}
+
+/* 概览：标签索引 */
+.overview-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin:var(--space-2) 0 var(--space-4);
+}
+.overview-tags span{
+  background:var(--green-100);
+  border:1px solid var(--green-300);
+  color:var(--green-900);
+  border-radius:999px;
+  padding:4px 12px;
+  font-size:13px;
+}
+.overview-lede{font-size:15px;}
+
+/* 网格卡片 */
+.grid-cards{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:var(--space-4);
+}
+.card{
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  overflow:hidden;
+  background:#fff;
+  display:flex;
+  flex-direction:column;
+  transition:transform .16s ease, box-shadow .16s ease;
+}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-m);}
+.card img{width:100%;height:150px;object-fit:cover;}
+.card-body{padding:14px 16px 16px;flex:1;display:flex;flex-direction:column;}
+.card-body h4{font-size:16px;color:var(--green-900);margin-bottom:6px;}
+.card-body p{font-size:14px;color:var(--ink-soft);margin-bottom:10px;flex:1;}
+.meta{font-size:12px;color:var(--earth-700);display:flex;gap:10px;flex-wrap:wrap;}
+.tag{display:inline-block;background:var(--green-100);color:var(--green-900);border-radius:999px;padding:1px 9px;font-size:12px;}
+
+/* 紧凑列表 */
+.list-compact{list-style:none;margin:0;padding:0;}
+.list-compact li{
+  display:grid;
+  grid-template-columns:88px minmax(0,1fr);
+  gap:12px;
+  padding:10px 0;
+  border-bottom:1px solid var(--line);
+  align-items:baseline;
+}
+.list-compact li:last-child{border-bottom:none;}
+.list-compact time{font-size:12.5px;color:var(--earth-700);font-variant-numeric:tabular-nums;}
+.list-compact b{font-weight:600;color:var(--green-900);}
+.list-compact p{margin:2px 0 0;font-size:14px;color:var(--ink-soft);}
+
+/* 分类入口 */
+.cat-list{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:10px;
+  list-style:none;
+  margin:0;padding:0;
+}
+.cat-list a{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:8px;
+  padding:10px 12px;
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:var(--radius-s);
+  text-decoration:none;
+  color:var(--ink);
+  font-size:14px;
+  transition:transform .16s ease, background .16s ease;
+}
+.cat-list a:hover{background:var(--green-100);transform:translateY(-2px);}
+.cat-list .count{font-size:12px;color:var(--earth-700);white-space:nowrap;}
+
+/* 深度解析：分栏正文 */
+.article-body{
+  column-count:2;
+  column-gap:32px;
+  font-size:15.5px;
+}
+.article-body h3{break-after:avoid;margin-top:0;}
+.article-body p{break-inside:auto;}
+.article-body .byline{
+  column-span:all;
+  font-size:12.5px;
+  color:var(--earth-700);
+  border-left:3px solid var(--green-300);
+  padding-left:10px;
+  margin-bottom:var(--space-4);
+}
+.pull-quote{
+  break-inside:avoid;
+  border-left:4px solid var(--accent);
+  background:#fdf6ee;
+  padding:12px 14px;
+  border-radius:0 var(--radius-s) var(--radius-s) 0;
+  font-family:var(--font-serif);
+  font-size:15px;
+  color:var(--earth-700);
+  margin:var(--space-3) 0;
+}
+.check-table{
+  width:100%;
+  border-collapse:collapse;
+  font-size:13.5px;
+  margin:var(--space-3) 0;
+  break-inside:avoid;
+}
+.check-table caption{
+  text-align:left;
+  font-size:12.5px;
+  color:var(--earth-700);
+  padding-bottom:6px;
+}
+.check-table th,.check-table td{
+  border:1px solid var(--line);
+  padding:7px 9px;
+  text-align:left;
+  vertical-align:top;
+}
+.check-table th{background:var(--green-100);color:var(--green-900);font-weight:600;}
+.fact-label{font-size:11px;letter-spacing:.5px;border-radius:3px;padding:0 5px;margin-right:4px;color:#fff;background:var(--green-500);}
+.fact-label.reply{background:var(--earth-700);}
+.fact-label.rumor{background:#8a8f84;}
+.fact-label.guess{background:var(--accent);}
+
+/* 步骤 */
+.steps{
+  list-style:none;
+  counter-reset:step;
+  margin:0;padding:0;
+}
+.steps li{
+  position:relative;
+  padding:0 0 var(--space-4) 52px;
+  counter-increment:step;
+}
+.steps li::before{
+  content:counter(step);
+  position:absolute;
+  left:0;top:0;
+  width:34px;height:34px;
+  border-radius:50%;
+  background:var(--green-700);
+  color:#fff;
+  font-weight:700;
+  display:flex;align-items:center;justify-content:center;
+  font-size:15px;
+}
+.steps li:not(:last-child)::after{
+  content:"";
+  position:absolute;
+  left:16px;top:38px;bottom:0;
+  width:2px;
+  background:var(--green-300);
+}
+.steps b{display:block;color:var(--green-900);margin-bottom:2px;}
+.steps p{font-size:14px;color:var(--ink-soft);margin:0;}
+.steps .step-meta{font-size:12px;color:var(--earth-700);}
+
+/* 对照面板 */
+.compare{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:0;
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  overflow:hidden;
+}
+.compare > div{padding:14px 16px;}
+.compare .ca{background:#f4f9ef;}
+.compare .cb{background:#fdf6ee;}
+.compare h4{display:flex;align-items:center;gap:6px;}
+.compare ul{margin:0;padding-left:18px;font-size:14px;color:var(--ink-soft);}
+.compare li{margin-bottom:5px;}
+
+/* 时间线 */
+.timeline{
+  list-style:none;
+  margin:0;padding:0 0 0 18px;
+  border-left:2px solid var(--green-300);
+}
+.timeline li{
+  position:relative;
+  padding:0 0 var(--space-4) 16px;
+}
+.timeline li::before{
+  content:"";
+  position:absolute;
+  left:-25px;top:6px;
+  width:10px;height:10px;
+  border-radius:50%;
+  background:#fff;
+  border:2px solid var(--green-700);
+}
+.timeline time{font-size:12.5px;color:var(--earth-700);display:block;}
+.timeline b{color:var(--green-900);}
+.timeline p{font-size:14px;color:var(--ink-soft);margin:2px 0 0;}
+
+/* FAQ */
+.faq details{
+  border:1px solid var(--line);
+  border-radius:var(--radius-s);
+  padding:0 14px;
+  margin-bottom:10px;
+  background:var(--paper);
+}
+.faq summary{
+  cursor:pointer;
+  padding:12px 0;
+  font-weight:600;
+  color:var(--green-900);
+  font-size:15px;
+  list-style:none;
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary::before{
+  content:"＋";
+  color:var(--green-500);
+  font-weight:700;
+  flex:none;
+}
+.faq details[open] summary::before{content:"－";}
+.faq details p{font-size:14px;color:var(--ink-soft);padding-bottom:12px;margin:0;}
+
+/* 评论 */
+.comments{display:grid;gap:12px;}
+.comment{
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:12px 14px;
+  background:#fff;
+}
+.comment header{
+  display:flex;
+  align-items:baseline;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-bottom:4px;
+}
+.comment .who{font-weight:600;color:var(--green-900);font-size:14px;}
+.comment .where{font-size:12px;color:var(--earth-700);}
+.comment p{font-size:14px;margin:0;color:var(--ink-soft);}
+.comment .tone{
+  font-size:11px;
+  border-radius:3px;
+  padding:0 6px;
+  border:1px solid var(--line);
+  color:var(--earth-700);
+}
+
+/* 标签索引 */
+.tag-index{display:flex;flex-wrap:wrap;gap:8px;}
+.tag-index a{
+  text-decoration:none;
+  font-size:13.5px;
+  color:var(--green-900);
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:999px;
+  padding:5px 13px;
+  transition:background .16s ease, transform .16s ease;
+}
+.tag-index a:hover{background:var(--green-100);transform:translateY(-2px);}
+
+/* 新闻资讯：引用卡 */
+.news-quote{
+  border-left:4px solid var(--green-500);
+  background:#f6faf2;
+  border-radius:0 var(--radius-m) var(--radius-m) 0;
+  padding:12px 16px;
+  margin-bottom:12px;
+}
+.news-quote h4{margin-bottom:4px;color:var(--green-900);}
+.news-quote p{font-size:14px;color:var(--ink-soft);margin:0;}
+.news-quote .src{font-size:12px;color:var(--earth-700);margin-top:4px;}
+
+/* 侧栏 */
+.sidebar{
+  display:grid;
+  gap:var(--space-4);
+  position:sticky;
+  top:var(--anchor-offset);
+}
+.side-card{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius-m);
+  padding:16px 18px;
+  box-shadow:var(--shadow-s);
+}
+.side-card h2{font-size:15px;color:var(--green-900);margin-bottom:10px;}
+.side-nav ul{list-style:none;margin:0;padding:0;}
+.side-nav a{
+  display:block;
+  padding:5px 8px;
+  font-size:13.5px;
+  color:var(--ink-soft);
+  text-decoration:none;
+  border-radius:4px;
+  border-left:3px solid transparent;
+}
+.side-nav a:hover{background:var(--green-100);}
+.side-nav a.active{
+  color:var(--green-900);
+  background:var(--green-100);
+  border-left-color:var(--green-700);
+  font-weight:600;
+}
+.side-list{list-style:none;margin:0;padding:0;font-size:13.5px;}
+.side-list li{padding:6px 0;border-bottom:1px dashed var(--line);color:var(--ink-soft);}
+.side-list li:last-child{border-bottom:none;}
+.side-list b{color:var(--green-900);font-weight:600;}
+.side-note{font-size:12.5px;color:var(--earth-700);margin:0;}
+
+/* 页脚 */
+.site-footer{
+  background:var(--green-900);
+  color:#dbe9d2;
+  padding:var(--space-6) 20px var(--space-5);
+  margin-top:var(--space-6);
+}
+.footer-inner{
+  max-width:1180px;
+  margin:0 auto;
+  display:grid;
+  grid-template-columns:1.2fr 1fr 1fr 1fr;
+  gap:var(--space-5);
+}
+.footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:10px;}
+.footer-brand svg{width:34px;height:34px;flex:none;}
+.footer-brand b{font-size:17px;letter-spacing:1px;color:#fff;}
+.site-footer p{font-size:13.5px;color:#bcd2b2;margin:0 0 8px;}
+.site-footer h3{font-size:14px;color:#fff;margin:0 0 10px;}
+.site-footer ul{list-style:none;margin:0;padding:0;font-size:13.5px;}
+.site-footer li{margin-bottom:6px;}
+.site-footer a{color:#dbe9d2;text-decoration:none;}
+.site-footer a:hover{color:#fff;text-decoration:underline;}
+.footer-bottom{
+  max-width:1180px;
+  margin:var(--space-5) auto 0;
+  padding-top:14px;
+  border-top:1px solid rgba(255,255,255,.18);
+  font-size:12.5px;
+  color:#a7c19c;
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  flex-wrap:wrap;
+}
+
+/* 回到顶部 */
+.to-top{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  z-index:70;
+  width:44px;height:44px;
+  border-radius:50%;
+  border:none;
+  background:var(--green-700);
+  color:#fff;
+  font-size:18px;
+  cursor:pointer;
+  box-shadow:var(--shadow-m);
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .2s ease, transform .2s ease;
+}
+.to-top.show{opacity:1;pointer-events:auto;}
+.to-top:hover{transform:translateY(-2px);}
+
+/* 响应式 */
+@media (max-width:980px){
+  .layout{grid-template-columns:minmax(0,1fr);}
+  .sidebar{position:static;grid-template-columns:1fr 1fr;}
+  .hero{grid-template-columns:1fr;}
+  .hero-visual{order:2;}
+  .footer-inner{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:720px){
+  .main-nav{
+    display:none;
+    position:absolute;
+    left:0;right:0;
+    top:100%;
+    background:var(--paper);
+    border-bottom:1px solid var(--line);
+    padding:8px 16px 14px;
+    box-shadow:var(--shadow-m);
+  }
+  .main-nav.open{display:block;}
+  .main-nav ul{flex-direction:column;}
+  .nav-toggle{display:inline-block;}
+  .header-inner{flex-wrap:wrap;position:relative;}
+  .header-tools{order:3;width:100%;}
+  .search-wrap{width:100%;}
+  .search-wrap input{width:100%;}
+  .grid-cards{grid-template-columns:1fr;}
+  .cat-list{grid-template-columns:1fr 1fr;}
+  .article-body{column-count:1;}
+  .compare{grid-template-columns:1fr;}
+  .sidebar{grid-template-columns:1fr;}
+  .hero-stats{grid-template-columns:repeat(3,1fr);}
+}
+@media (max-width:420px){
+  .cat-list{grid-template-columns:1fr;}
+  .list-compact li{grid-template-columns:74px minmax(0,1fr);}
+  .hero{padding-top:var(--space-5);}
+  .section{padding:18px 16px;}
+  .to-top{right:12px;bottom:12px;width:40px;height:40px;}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{transition:none!important;animation:none!important;}
+  .card:hover,.cat-list a:hover,.tag-index a:hover,.btn:hover{transform:none;}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="notice-bar" role="region" aria-label="站点更新公告">
+  <span class="dot" aria-hidden="true"></span>
+  <span>青青草久久艹 更新：2026-11-08 发布「秋播黑麦草播量对照表」，并补充 11 月 6 日霜冻后修剪记录 3 条</span>
+</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/#overview">
+      <svg class="brand-mark" viewBox="0 0 64 64" role="img" aria-label="草叶图标志">
+        <rect width="64" height="64" rx="14" fill="#2f6b3a"></rect>
+        <path d="M32 52c0-14 2-24 14-32-4 14-6 22-6 32z" fill="#bfe3a1"></path>
+        <path d="M32 52c0-12-2-20-12-28 3 12 4 19 4 28z" fill="#94cf7e"></path>
+        <circle cx="45" cy="17" r="3.4" fill="#ffe9a8"></circle>
+      </svg>
+      <span class="brand-text">青青草久久艹</span>
+    </a>
+    <nav class="main-nav" id="mainNav" aria-label="主题导航">
+      <ul>
+        <li><a href="/#overview">草种概览</a></li>
+        <li><a href="/#picks">本周精选</a></li>
+        <li><a href="/#updates">养护更新</a></li>
+        <li><a href="/#channels">分类频道</a></li>
+        <li><a href="/#deep">深度解析</a></li>
+        <li><a href="/#guide">播种步骤</a></li>
+        <li><a href="/#compare">草种对照</a></li>
+        <li><a href="/#faq">常见问答</a></li>
+        <li><a href="/#comments">种植者说</a></li>
+        <li><a href="/#news">行业动态</a></li>
+        <li><a href="/#rank">口碑榜单</a></li>
+        <li><a href="/#tags">标签索引</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainNav" id="navToggle">菜单</button>
+      <div class="search-wrap" role="search">
+        <label for="siteSearch" style="position:absolute;left:-9999px;">站内搜索</label>
+        <input id="siteSearch" type="search" placeholder="搜草种、播量、病害" autocomplete="off">
+        <button type="button" id="searchBtn">查找</button>
+      </div>
+    </div>
+  </div>
+  <div class="search-status" id="searchStatus" aria-live="polite"></div>
+</header>
+
+<div class="hero">
+  <div>
+    <span class="hero-eyebrow">草地养护 · 2026 年秋播季</span>
+    <h1>青青草久久艹</h1>
+    <p class="hero-lead">围绕黑麦草、高羊茅、草地早熟禾、白三叶等常见草种，记录<strong>每平方米播量、修剪留茬高度、秋末越冬水</strong>的实测差异。北方冷季型草坪的入冬前 30 天，比春季补播更能决定第二年返青整齐度。</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="/#deep">读深度解析</a>
+      <a class="btn btn-ghost" href="/#guide">看播种步骤</a>
+    </div>
+    <div class="hero-stats">
+      <div><b>12</b><span>个养护频道</span></div>
+      <div><b>86</b><span>条草种记录</span></div>
+      <div><b>11-08</b><span>最近更新日</span></div>
+    </div>
+  </div>
+  <div class="hero-visual" aria-hidden="true">
+    <svg viewBox="0 0 420 340" role="img" aria-label="草坪剖面与草叶生长示意图">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#f2f9ec"></stop>
+          <stop offset="1" stop-color="#d9ecd0"></stop>
+        </linearGradient>
+        <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#8a6a45"></stop>
+          <stop offset="1" stop-color="#5c4a33"></stop>
+        </linearGradient>
+      </defs>
+      <rect x="0" y="0" width="420" height="340" rx="14" fill="url(#sky)"></rect>
+      <circle cx="330" cy="66" r="30" fill="#ffe9a8"></circle>
+      <path d="M0 232 h420 v108 H0z" fill="url(#soil)"></path>
+      <path d="M0 232 q60 -14 120 0 t140 0 t160 0" fill="none" stroke="#4f8f52" stroke-width="4"></path>
+      <g stroke="#2f6b3a" stroke-width="5" stroke-linecap="round" fill="none">
+        <path d="M60 232 C56 196 66 176 80 156"></path>
+        <path d="M92 232 C88 200 96 184 108 168"></path>
+        <path d="M124 232 C122 202 130 186 142 172"></path>
+        <path d="M158 232 C154 198 164 180 176 162"></path>
+        <path d="M192 232 C190 204 198 188 210 174"></path>
+        <path d="M226 232 C222 200 232 182 244 166"></path>
+        <path d="M262 232 C258 202 268 186 280 170"></path>
+        <path d="M296 232 C294 206 302 190 314 176"></path>
+        <path d="M330 232 C326 202 336 184 348 168"></path>
+      </g>
+      <g fill="#94cf7e">
+        <ellipse cx="82" cy="154" rx="9" ry="5" transform="rotate(-32 82 154)"></ellipse>
+        <ellipse cx="110" cy="166" rx="9" ry="5" transform="rotate(-30 110 166)"></ellipse>
+        <ellipse cx="144" cy="170" rx="9" ry="5" transform="rotate(-28 144 170)"></ellipse>
+        <ellipse cx="178" cy="160" rx="9" ry="5" transform="rotate(-30 178 160)"></ellipse>
+        <ellipse cx="212" cy="172" rx="9" ry="5" transform="rotate(-26 212 172)"></ellipse>
+        <ellipse cx="246" cy="164" rx="9" ry="5" transform="rotate(-30 246 164)"></ellipse>
+        <ellipse cx="282" cy="168" rx="9" ry="5" transform="rotate(-28 282 168)"></ellipse>
+        <ellipse cx="316" cy="174" rx="9" ry="5" transform="rotate(-26 316 174)"></ellipse>
+        <ellipse cx="350" cy="166" rx="9" ry="5" transform="rotate(-32 350 166)"></ellipse>
+      </g>
+      <g stroke="#c9b79e" stroke-width="2" stroke-dasharray="6 6" fill="none">
+        <path d="M30 268 h360"></path>
+        <path d="M30 300 h360"></path>
+      </g>
+      <text x="36" y="262" font-size="12" fill="#f3ede2" font-family="sans-serif">5 cm 播种深度线</text>
+      <text x="36" y="294" font-size="12" fill="#f3ede2" font-family="sans-serif">10 cm 根系观察线</text>
+    </svg>
+    <span class="hero-tag">秋播剖面：播深 5 mm，覆土均匀</span>
+  </div>
+</div>
+
+<div class="layout">
+<main>
+
+  <!-- 1. 领域概览 -->
+  <section class="section" id="overview">
+    <div class="section-head">
+      <h2>草种概览：冷季型草坪到底怎么选</h2>
+      <span class="hint">更新于 2026-11-08</span>
+    </div>
+    <div class="overview-tags" aria-label="草种标签索引">
+      <span>黑麦草</span><span>高羊茅</span><span>草地早熟禾</span><span>紫羊茅</span>
+      <span>白三叶</span><span>剪股颖</span><span>混播比例</span><span>留茬高度</span>
+      <span>越冬水</span><span>锈病</span>
+    </div>
+    <p class="overview-lede">草坪草分为冷季型和暖季型两大类。黄河以北及长江中下游的多数城市绿地，秋冬春季靠冷季型草撑场面；华南夏季则以狗牙根、结缕草为主。选种先看最低温：冬季常年低于 −15℃ 的地块，草地早熟禾要占混播的 50% 以上，否则黑麦草单播容易在 1 月出现大片黄斑。</p>
+    <p>黑麦草出苗快，7 天左右就能见绿，常被用作护坡和补播的先锋草；高羊茅根系深，耐旱和耐踩踏更好，但苗期生长慢，单播前 3 周需要专人看水。草地早熟禾质地细腻，成坪后色泽统一，缺点是建植周期长，通常要 45—60 天才形成致密草毯。紫羊茅耐阴，北向阳台和树下补光不足处可以占混播的 20%—30%。</p>
+    <p>播量是最容易出问题的一环。黑麦草单播推荐 25—30 g/m²，高羊茅 30—35 g/m²，草地早熟禾 15—20 g/m²。混播时按各自的纯播量折算后再累加，而不是把三个数字直接相加。用种量过大，苗期密不透风，褐斑病和腐霉病几乎躲不掉。</p>
+  </section>
+
+  <!-- 2. 精选推荐 -->
+  <section class="section" id="picks">
+    <div class="section-head">
+      <h2>精选内容推荐</h2>
+      <span class="hint">按地块类型和养护强度挑选</span>
+    </div>
+    <div class="grid-cards">
+      <article class="card">
+        <img src="https://picsum.photos/seed/grass-rye-01/520/300" width="520" height="300" loading="lazy" alt="秋季黑麦草苗期田间出苗情况">
+        <div class="card-body">
+          <h4>黑麦草秋播 28 天出苗记录</h4>
+          <p>郑州西郊，10 月 9 日播种，第 6 天见绿，第 21 天覆盖度约 70%。记录了三次浇水与一次补播。</p>
+          <div class="meta"><span class="tag">黑麦草</span><span>10-09 播种</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/seed/grass-fescue-02/520/300" width="520" height="300" loading="lazy" alt="高羊茅草坪边缘修剪后的留茬特写">
+        <div class="card-body">
+          <h4>高羊茅 + 早熟禾 7:3 混播效果</h4>
+          <p>杭州余杭 120 m² 庭院实测：第 40 天覆盖度 88%，锈病零星出现在东南角低洼处，已做排水处理。</p>
+          <div class="meta"><span class="tag">混播比例</span><span>10-22 记录</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/seed/grass-mow-03/520/300" width="520" height="300" loading="lazy" alt="手推式割草机修剪草坪留茬高度">
+        <div class="card-body">
+          <h4>秋末最后一次修剪该留多高</h4>
+          <p>入冬前把留茬从 6 cm 降到 4.5 cm，实测积雪融化后倒伏面积比去年少了一半。附割草机刀片高度对照。</p>
+          <div class="meta"><span class="tag">留茬高度</span><span>11-05 更新</span></div>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://picsum.photos/seed/grass-clover-04/520/300" width="520" height="300" loading="lazy" alt="白三叶与草坪混播后的叶片形态">
+        <div class="card-body">
+          <h4>白三叶补播的边界在哪</h4>
+          <p>三叶草固氮确实能压氮肥用量，但占比超过 30% 后行间踩踏容易倒伏，割草机也容易把匍匐茎撕断。</p>
+          <div class="meta"><span class="tag">白三叶</span><span>10-30 记录</span></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3. 最新更新 -->
+  <section class="section" id="updates">
+    <div class="section-head">
+      <h2>最新养护更新</h2>
+      <span class="hint">近 30 天内的田间记录</span>
+    </div>
+    <ul class="list-compact">
+      <li>
+        <time datetime="2026-11-08">11-08 今天</time>
+        <div><b>发布秋播黑麦草播量对照表</b><p>覆盖 18 g/m²、25 g/m²、32 g/m² 三档，出苗第 14 天与第 28 天各测一次覆盖度。</p></div>
+      </li>
+      <li>
+        <time datetime="2026-11-06">11-06</time>
+        <div><b>霜冻后修剪记录 3 条</b><p>石家庄、济南、洛阳三地夜间最低 −3℃ 至 −1℃，记录冻伤叶片比例与是否需要提前割草。</p></div>
+      </li>
+      <li>
+        <time datetime="2026-11-02">11-02</time>
+        <div><b>越冬水浇灌时点实测</b><p>土壤封冻前 7—10 天浇透，实测 5 cm 深土层含水量保持在 18%—20% 时，返青更整齐。</p></div>
+      </li>
+      <li>
+        <time datetime="2026-10-28">10-28</time>
+        <div><b>褐斑病发斑位置统计</b><p>整理 9 个庭院样点，低洼积水处的病斑密度是坡地的 3 倍以上，排水比喷药更关键。</p></div>
+      </li>
+      <li>
+        <time datetime="2026-10-24">10-24</time>
+        <div><b>补播草籽覆土厚度试验</b><p>覆土 2 mm 与 6 mm 两组对照，出苗率相差近 20 个百分点，过厚覆土是补播失败主因之一。</p></div>
+      </li>
+      <li>
+        <time datetime="2026-10-19">10-19</time>
+        <div><b>紫羊茅耐阴测试</b><p>北向 4 小时日照环境，紫羊茅覆盖度 62%，同期黑麦草只有 34%，树下补播可参考。</p></div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 4. 分类入口 -->
+  <section class="section" id="channels">
+    <div class="section-head">
+      <h2>分类频道入口</h2>
+      <span class="hint">12 个频道，按作业环节划分</span>
+    </div>
+    <ul class="cat-list">
+      <li><a href="/#overview">冷季型草种选择<span class="count">14 篇</span></a></li>
+      <li><a href="/#guide">播种与覆土步骤<span class="count">11 篇</span></a></li>
+      <li><a href="/#picks">混播比例配方<span class="count">9 篇</span></a></li>
+      <li><a href="/#updates">修剪留茬管理<span class="count">16 篇</span></a></li>
+      <li><a href="/#deep">越冬水与封冻<span class="count">7 篇</span></a></li>
+      <li><a href="/#compare">褐斑病与锈病<span class="count">12 篇</span></a></li>
+      <li><a href="/#rank">施肥节点与氮磷钾<span class="count">10 篇</span></a></li>
+      <li><a href="/#comments">补播与打孔通气<span class="count">8 篇</span></a></li>
+      <li><a href="/#news">草坪割草机选购<span class="count">6 篇</span></a></li>
+      <li><a href="/#faq">土壤 pH 与改良<span class="count">5 篇</span></a></li>
+      <li><a href="/#tags">白三叶混播<span class="count">4 篇</span></a></li>
+      <li><a href="/#deep">北向阳台种草<span class="count">3 篇</span></a></li>
+    </ul>
+  </section>
+
+  <!-- 5. 深度解析 -->
+  <section class="section" id="deep">
+    <div class="section-head">
+      <h2>深度解析：秋播草籽，播量宁可少一点</h2>
+      <span class="hint">全页唯一主体阅读区</span>
+    </div>
+    <div class="article-body">
+      <p class="byline">依据 2026 年 10 月 9 日至 11 月 7 日，郑州、杭州、石家庄三地的 9 块样点记录整理。样点面积 8—120 m²，草种以黑麦草和高羊茅为主。</p>
+
+      <h3>判断一：秋播黑麦草超过 32 g/m²，褐斑病概率明显上升</h3>
+      <p>郑州样点 A 播 18 g/m²，样点 B 播 25 g/m²，样点 C 播 32 g/m²，三块地同一天播种、同一批种子、同一水源。到 11 月 2 日，C 区第 24 天开始出现针尖状褐斑，11 月 6 日病斑连片面积约 1.2 m²；A、B 两区同期没有成片病斑。B 区覆盖度达到 74%，C 区 81%，差距只有 7 个百分点，但用药成本 C 区多出一轮。</p>
+      <p>这类结果支持一个可以直接引用的判断：<strong>密度带来的边际覆盖度递减，而病害风险是递增的。</strong>它也能被反驳——如果样点 C 的土壤氮含量更高，病斑可能来自施肥而非播量。目前缺少土壤化验单，这一条应视为待验证。</p>
+      <table class="check-table">
+        <caption>播量对照：出苗 28 天后结果（郑州，2026-10-09 播种）</caption>
+        <thead><tr><th>播量</th><th>覆盖度</th><th>病斑面积</th><th>补播次数</th></tr></thead>
+        <tbody>
+          <tr><td>18 g/m²</td><td>64%</td><td>0</td><td>1 次</td></tr>
+          <tr><td>25 g/m²</td><td>74%</td><td>0</td><td>0 次</td></tr>
+          <tr><td>32 g/m²</td><td>81%</td><td>1.2 m²</td><td>0 次</td></tr>
+        </tbody>
+      </table>
+
+      <h3>判断二：覆土 6 mm 比播量更能决定补播成败</h3>
+      <p>10 月 24 日的补播试验中，覆土 2 mm 的出苗率 71%，覆土 6 mm 出苗率 52%，两组用的是同一批高羊茅。6 mm 组出苗晚 3—4 天，且幼苗顶土时弯折比例更高。草籽粒径小，覆土以刚好盖住种子为准，滚压比厚覆土更有效。</p>
+
+      <h3>判断三：越冬水时间集中在 11 月中下旬，要看封冻而非日历</h3>
+      <p>石家庄样点 11 月 2 日浇越冬水，比去年提前 9 天。11 月 6 日夜间 −3℃，5 cm 土层未封冻，判断为偏早；11 月 12 日前后夜间稳定低于 0℃ 时再浇更稳妥。这条意见来自一位从业 11 年的园林养护工，属于<strong>经验判断</strong>，尚未做大样本对比。</p>
+
+      <p><span class="fact-label">事实</span>三地记录显示，10 月中旬播种的黑麦草，第 6—8 天普遍见绿。</p>
+      <p><span class="fact-label reply">回应</span>有读者指出 18 g/m² 播量在坡地会被雨水冲走。坡地确实需要提高 15%—20% 用种量，或加铺无纺布。</p>
+      <p><span class="fact-label rumor">转述</span>某园艺群里流传「黑麦草冬天必死」，原话来自一位播后未浇封冻水的种植者，不能作为草种特性结论。</p>
+      <p><span class="fact-label guess">推测</span>11 月下旬若持续干旱少雪，返青黄化面积可能比去年同期扩大，需继续观察。</p>
+
+      <blockquote class="pull-quote">把判断拆开看：播量、覆土、越冬水三件事里，播量最容易改，也最容易被心理上的「多播保险」带偏。</blockquote>
+
+      <p>上述三条判断都有具体日期和样点支撑，但样点数量有限，结论更适合直接套用的情形是：面积小于 150 m² 的庭院草坪、冷季型草、秋播。牧场和大型球场不在讨论范围内。</p>
+    </div>
+  </section>
+
+  <!-- 6. 体验指南 -->
+  <section class="section" id="guide">
+    <div class="section-head">
+      <h2>秋播体验指南：七步建植一块草坪</h2>
+      <span class="hint">从清园到第一次修剪</span>
+    </div>
+    <ol class="steps">
+      <li>
+        <b>清园与粗平整</b>
+        <p>清除建筑垃圾与杂草根茎，翻土 15 cm 深，捡出石块。低洼处补土找平，避免积水成病斑源头。</p>
+        <div class="step-meta">约需 1—2 天，取决于面积</div>
+      </li>
+      <li>
+        <b>测土壤 pH</b>
+        <p>冷季型草适宜 6.0—7.0。低于 5.5 时可撒石灰调酸碱，高于 7.5 时用硫磺粉或酸性基质改良，用量按检测报告执行。</p>
+        <div class="step-meta">试纸或简易 pH 笔即可</div>
+      </li>
+      <li>
+        <b>施底肥</b>
+        <p>每 100 m² 施复合肥 2—3 kg，翻入 5 cm 土层，避免与种子直接接触。秋播不建议用高氮肥催苗。</p>
+        <div class="step-meta">播前 3—5 天完成</div>
+      </li>
+      <li>
+        <b>细平整与滚压</b>
+        <p>用铁耙拉出浅沟，滚压一遍让床面紧实。床面松软会导致浇水后种子下陷、出苗不齐。</p>
+        <div class="step-meta">播前一天</div>
+      </li>
+      <li>
+        <b>播种</b>
+        <p>黑麦草 25—30 g/m²，高羊茅 30—35 g/m²，草地早熟禾 15—20 g/m²。分两次交叉撒播，避免漏播或堆积。</p>
+        <div class="step-meta">10 月中旬前完成，出苗更整齐</div>
+      </li>
+      <li>
+        <b>覆土与浇水</b>
+        <p>覆土 2—3 mm 盖住种子即可，轻压后喷细雾。前 10 天每天早晚各一次，保持表土湿润不积水。</p>
+        <div class="step-meta">出苗后逐渐减少至隔天一次</div>
+      </li>
+      <li>
+        <b>第一次修剪</b>
+        <p>草高达到 8—10 cm 时开剪，留下 6 cm。刀片要锋利，钝刀会撕断幼苗。修剪前一天不浇水。</p>
+        <div class="step-meta">通常播后 30—40 天</div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- 7. 对照面板 -->
+  <section class="section" id="compare">
+    <div class="section-head">
+      <h2>草种对照：黑麦草与高羊茅怎么选</h2>
+      <span class="hint">按使用场景权衡</span>
+    </div>
+    <div class="compare">
+      <div class="ca">
+        <h4>黑麦草</h4>
+        <ul>
+          <li>出苗 6—8 天见绿，建植快</li>
+          <li>单播播量 25—30 g/m²</li>
+          <li>耐踩踏一般，重压下易倒伏</li>
+          <li>成坪质地细腻，色泽亮</li>
+          <li>适合护坡、补播、临时绿化</li>
+          <li>冬季 −12℃ 以下需混播保底</li>
+        </ul>
+      </div>
+      <div class="cb">
+        <h4>高羊茅</h4>
+        <ul>
+          <li>出苗 10—14 天，苗期偏慢</li>
+          <li>单播播量 30—35 g/m²</li>
+          <li>根系深，耐旱耐踩踏更好</li>
+          <li>叶片较粗，质感不如早熟禾</li>
+          <li>适合家庭庭院、儿童活动区</li>
+          <li>与早熟禾 7:3 混播更稳</li>
+        </ul>
+      </div>
+    </div>
+    <p style="margin-top:14px;font-size:14px;color:var(--ink-soft);">两种草都属冷季型，夏季高温高湿期都会变弱。长江流域种高羊茅，7—8 月需控水控肥，避免腐霉病扩散。若地块每日直射光不足 4 小时，优先考虑紫羊茅或白三叶混播。</p>
+  </section>
+
+  <!-- 8. FAQ -->
+  <section class="section faq" id="faq">
+    <div class="section-head">
+      <h2>常见问答</h2>
+      <span class="hint">播种、修剪、病害高频问题</span>
+    </div>
+    <details>
+      <summary>秋播黑麦草，播多少克一平方米合适？</summary>
+      <p>单播建议 25—30 g/m²。坡地或雨水冲刷明显的地块提高到 30—35 g/m²；混播时按纯播量的比例折算，不直接叠加总数。播量过低出苗稀疏，杂草容易抢位；过高则苗期通风差，褐斑病风险上升。</p>
+    </details>
+    <details>
+      <summary>草坪越冬水什么时候浇最好？</summary>
+      <p>看土壤封冻时间，不看固定日期。夜间稳定低于 0℃、白天土表化冻、5 cm 土层尚未封冻时浇透，北方多在 11 月中下旬。浇太早，水分蒸发后起不到封冻保护作用；浇太晚，水渗不下去，表面结冰反而伤根。</p>
+    </details>
+    <details>
+      <summary>草坪出现褐色圆斑，是褐斑病还是缺肥？</summary>
+      <p>褐斑病斑多呈圆形或不规则片状，边缘深褐、中央灰白，清晨有菌丝；缺氮黄化则整片均匀发黄、叶尖先退绿。可用剪刀剪下一块草皮看根颈，褐斑病根颈处常有褐色坏死。低洼积水处发病更重，先排水再判断是否用药。</p>
+    </details>
+    <details>
+      <summary>修剪留茬高度留几厘米？</summary>
+      <p>黑麦草成坪后留 5—6 cm，高羊茅 6—7 cm，草地早熟禾 4—5 cm。秋末最后一次修剪略低 1—1.5 cm，减少越冬期倒伏和雪霉病。每次修剪不超过草高的三分之一，一次剪太短会伤根。</p>
+    </details>
+    <details>
+      <summary>北向阳台能种草坪吗？</summary>
+      <p>能种，但草种要换。每日直射光 3—4 小时的环境优先紫羊茅，或与草地早熟禾混播；黑麦草在弱光下徒长明显，覆盖度实测只有 34%。阳台种植还要注意盆土排水，托盘积水超过 2 小时容易烂根。</p>
+    </details>
+    <details>
+      <summary>白三叶和草坪混播，比例多少合适？</summary>
+      <p>三叶草占比控制在 10%—20%，最多不超过 30%。它能固氮、减少氮肥用量，但比例高了行间踩踏容易倒伏，割草机也容易把匍匐茎撕断。混播后减少氮肥追施，避免三叶草疯长压制禾本科草。</p>
+    </details>
+  </section>
+
+  <!-- 9. 用户评论 -->
+  <section class="section" id="comments">
+    <div class="section-head">
+      <h2>种植者说</h2>
+      <span class="hint">来自庭院与绿化工地的反馈</span>
+    </div>
+    <div class="comments">
+      <article class="comment">
+        <header><span class="who">老周 · 郑州</span><span class="where">庭院 80 m²</span><span class="tone">认可</span></header>
+        <p>按 25 g/m² 播的黑麦草，10 月 9 日下的种，第 7 天见绿。之前一直按 35 g/m² 播，苗密得看不见土，第二年春天全是褐斑。少播这一档，确实省了一轮药。</p>
+      </article>
+      <article class="comment">
+        <header><span class="who">阿岚 · 杭州</span><span class="where">北向小院</span><span class="tone">吐槽</span></header>
+        <p>紫羊茅耐阴那篇说得实在，我家北院每天 3 小时太阳，黑麦草长成细面条，风一吹就倒。换成紫羊茅混早熟禾以后，覆盖度肉眼可见上来了。就是想提醒一句，紫羊茅出苗比黑麦草慢，别急着补播。</p>
+      </article>
+      <article class="comment">
+        <header><span class="who">园林工小郝</span><span class="where">石家庄</span><span class="tone">中性补充</span></header>
+        <p>越冬水浇得早那篇我有不同看法。11 月 2 日浇的那块地，11 月 6 日夜间 −3℃，土层没封冻，水早渗下去了，真正的问题在于浇得不透，不是浇得早。5 cm 土层含水量没到 18% 的，浇了也白浇。</p>
+      </article>
+      <article class="comment">
+        <header><span class="who">林女士 · 苏州</span><span class="where">屋顶花园</span><span class="tone">质疑</span></header>
+        <p>覆土 2 mm 出苗率 71%，这个数我这边对不上。屋顶风大，覆土太薄，10 月 24 日补播的那一块被风刮走不少，出苗率不到五成。后来盖了无纺布才有起色。播量对照表里没写风速，感觉不太够用。</p>
+      </article>
+      <article class="comment">
+        <header><span class="who">陈师傅 · 洛阳</span><span class="where">苗圃 300 m²</span><span class="tone">认可</span></header>
+        <p>高羊茅和早熟禾 7:3 那个混播比例，跟我苗圃用了三年的配方基本一致。高羊茅耐踩，早熟禾补质感，割草机推过去也平整。唯一提醒是早熟禾比例别低于三成，低了补不齐斑块。</p>
+      </article>
+      <article class="comment">
+        <header><span class="who">小满 · 济南</span><span class="where">新手上路</span><span class="tone">求解</span></header>
+        <p>11 月 6 日霜冻那批记录里写冻伤叶片不用急着割，可我家草坪叶片已经发白一大片了，踩上去有脆响。这种情况要不要先剪掉再浇水？还是等白天化冻以后再说？坐标济南，夜里到 −2℃。</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- 10. 相关资讯 -->
+  <section class="section" id="news">
+    <div class="section-head">
+      <h2>相关资讯与田间动态</h2>
+      <span class="hint">来自本地种植群与苗圃通报</span>
+    </div>
+    <div class="news-quote">
+      <h4>洛阳苗圃 10 月中旬草籽到货批次</h4>
+      <p>黑麦草「潘多」与高羊茅「猎狗」两批到货，纯度标注分别为 98% 和 96%。苗圃方提醒：袋装日期为 10 月 12 日，存放超过 6 个月发芽率会下降，秋播尽量用当季新种。</p>
+      <p class="src">来源：苗圃到货单，2026-10-15</p>
+    </div>
+    <div class="news-quote">
+      <h4>郑州西郊社区绿地秋季补播完成</h4>
+      <p>10 月 20 日完成 420 m² 斑秃补播，采用黑麦草单播，播量 28 g/m²。物业表示补播区已围挡，11 月初开放，期间禁止踩踏。补播后第 12 天覆盖度目测约 55%。</p>
+      <p class="src">来源：社区公告栏，2026-10-21</p>
+    </div>
+    <div class="news-quote">
+      <h4>济南一处草地早熟禾斑块返青偏弱</h4>
+      <p>10 月 28 日现场查看，3 处斑块直径 0.5—0.8 m，根颈未见明显病斑，初步判断与夏季遮阴和土壤板结有关。建议打孔通气后补播，不建议直接加大施肥量。</p>
+      <p class="src">来源：园林养护工现场反馈，2026-10-29</p>
+    </div>
+    <div class="news-quote">
+      <h4>割草机刀片更换提醒</h4>
+      <p>多家使用者反映，秋末修剪前应检查刀片。刀片变钝后草叶切口发毛，容易在入冬前诱发叶斑。建议每使用 20—25 小时检查一次刀片刃口。</p>
+      <p class="src">来源：种植群讨论整理，2026-11-03</p>
+    </div>
+  </section>
+
+  <!-- 11. 口碑榜单 -->
+  <section class="section" id="rank">
+    <div class="section-head">
+      <h2>草种口碑榜（社区投票，11-08 截止）</h2>
+      <span class="hint">按「返青整齐度 + 病害少」两项投票</span>
+    </div>
+    <ul class="list-compact">
+      <li><time>第 1 名</time><div><b>高羊茅「猎狗」</b><p>46 票。耐踩和抗旱反馈集中，缺点是叶质偏粗，介意手感的慎选。</p></div></li>
+      <li><time>第 2 名</time><div><b>草地早熟禾「午夜」</b><p>39 票。成坪细腻、色泽好，投票者多提到「建植慢，急不得」。</p></div></li>
+      <li><time>第 3 名</time><div><b>黑麦草「潘多」</b><p>33 票。出苗快是最大加分项，冬季低温地区单播需混播保底。</p></div></li>
+      <li><time>第 4 名</time><div><b>紫羊茅「肯塔基」</b><p>21 票。阴面环境票数集中，喜光地块使用者评价一般。</p></div></li>
+      <li><time>第 5 名</time><div><b>白三叶</b><p>17 票。固氮省肥被多次提到，倒伏和割草撕断是主要扣分点。</p></div></li>
+    </ul>
+  </section>
+
+  <!-- 12. 相关推荐 -->
+  <section class="section" id="tags">
+    <div class="section-head">
+      <h2>相关推荐标签</h2>
+      <span class="hint">按养护环节检索</span>
+    </div>
+    <div class="tag-index">
+      <a href="/#overview">黑麦草秋播播量</a>
+      <a href="/#compare">高羊茅耐踩踏对比</a>
+      <a href="/#deep">草坪越冬水时间</a>
+      <a href="/#faq">褐斑病判断方法</a>
+      <a href="/#updates">修剪留茬高度</a>
+      <a href="/#guide">补播覆土厚度</a>
+      <a href="/#picks">混播比例配方</a>
+      <a href="/#comments">北向阳台种草</a>
+      <a href="/#news">割草机刀片维护</a>
+      <a href="/#deep">草地早熟禾建植周期</a>
+    </div>
+  </section>
+
+</main>
+
+<aside class="sidebar" aria-label="侧栏导航与快捷信息">
+  <div class="side-card side-nav">
+    <h2>栏目导航</h2>
+    <ul>
+      <li><a href="/#overview">草种概览</a></li>
+      <li><a href="/#picks">精选内容</a></li>
+      <li><a href="/#updates">最新更新</a></li>
+      <li><a href="/#channels">分类频道</a></li>
+      <li><a href="/#deep">深度解析</a></li>
+      <li><a href="/#guide">体验指南</a></li>
+      <li><a href="/#compare">草种对照</a></li>
+      <li><a href="/#faq">常见问答</a></li>
+      <li><a href="/#comments">种植者说</a></li>
+      <li><a href="/#news">相关资讯</a></li>
+      <li><a href="/#rank">口碑榜单</a></li>
+      <li><a href="/#tags">相关推荐</a></li>
+    </ul>
+  </div>
+  <div class="side-card">
+    <h2>播量速查</h2>
+    <ul class="side-list">
+      <li><b>黑麦草</b> 25—30 g/m²</li>
+      <li><b>高羊茅</b> 30—35 g/m²</li>
+      <li><b>草地早熟禾</b> 15—20 g/m²</li>
+      <li><b>紫羊茅</b> 20—25 g/m²</li>
+      <li><b>白三叶</b> 5—8 g/m²（混播）</li>
+    </ul>
+  </div>
+  <div class="side-card">
+    <h2>秋末作业清单</h2>
+    <ul class="side-list">
+      <li>11-12 前后浇越冬水</li>
+      <li>11-05 前完成最后一次修剪</li>
+      <li>检查割草机刀片刃口</li>
+      <li>低洼处排水沟清理</li>
+      <li>停止高氮追肥</li>
+    </ul>
+    <p class="side-note">清单依据近 30 天记录整理，具体时间按本地封冻情况调整。</p>
+  </div>
+</aside>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-brand">
+        <svg viewBox="0 0 64 64" role="img" aria-label="草叶图标志">
+          <rect width="64" height="64" rx="14" fill="#3d7f47"></rect>
+          <path d="M32 52c0-14 2-24 14-32-4 14-6 22-6 32z" fill="#bfe3a1"></path>
+          <path d="M32 52c0-12-2-20-12-28 3 12 4 19 4 28z" fill="#94cf7e"></path>
+        </svg>
+        <b>青青草久久艹</b>
+      </div>
+      <p>记录冷季型草坪从播种到越冬的每一步，用日期、播量和覆盖度说话。</p>
+    </div>
+    <div>
+      <h3>养护频道</h3>
+      <ul>
+        <li><a href="/#overview">草种选择</a></li>
+        <li><a href="/#guide">播种步骤</a></li>
+        <li><a href="/#updates">修剪管理</a></li>
+        <li><a href="/#deep">越冬水</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>问题排查</h3>
+      <ul>
+        <li><a href="/#compare">草种对照</a></li>
+        <li><a href="/#faq">褐斑病问答</a></li>
+        <li><a href="/#news">田间动态</a></li>
+        <li><a href="/#rank">口碑榜单</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>关于内容</h3>
+      <ul>
+        <li>条目均为示例数据</li>
+        <li>时间截至 2026-11-08</li>
+        <li>页脚更新对应「最新更新」板块</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>页面内容更新时间：2026-11-08（对应「最新养护更新」首条）</span>
+    <span>© 2026 青青草久久艹 · 内容仅供种植参考</span>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var navToggle=document.getElementById('navToggle');
+  var mainNav=document.getElementById('mainNav');
+  if(navToggle&&mainNav){
+    navToggle.addEventListener('click',function(){
+      var open=mainNav.classList.toggle('open');
+      navToggle.setAttribute('aria-expanded',open?'true':'false');
+    });
+    mainNav.addEventListener('click',function(e){
+      if(e.target.tagName==='A'&&window.innerWidth<=720){
+        mainNav.classList.remove('open');
+        navToggle.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  var toTop=document.getElementById('toTop');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>420){toTop.classList.add('show');}
+    else{toTop.classList.remove('show');}
+  },{passive:true});
+  toTop.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  var sideLinks=Array.prototype.slice.call(document.querySelectorAll('.side-nav a'));
+  var sections=Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
+  if('IntersectionObserver' in window){
+    var obs=new IntersectionObserver(function(entries){
+      entries.forEach(function(en){
+        if(en.isIntersecting){
+          var id=en.target.id;
+          sideLinks.forEach(function(a){
+            var hit=a.getAttribute('href')==='/# '+id||a.getAttribute('href')==='#'+id||a.getAttribute('href').indexOf('#'+id)>-1;
+            a.classList.toggle('active',hit);
+          });
+        }
+      });
+    },{rootMargin:'-130px 0px -55% 0px',threshold:0.01});
+    sections.forEach(function(s){obs.observe(s);});
+  }
+
+  // 本地搜索
+  var input=document.getElementById('siteSearch');
+  var btn=document.getElementById('searchBtn');
+  var status=document.getElementById('searchStatus');
+  var main=document.querySelector('main');
+  var originalHTML=main?main.innerHTML:'';
+  function clearHits(){
+    main.querySelectorAll('mark.hit').forEach(function(m){
+      var t=document.createTextNode(m.textContent);
+      m.parentNode.replaceChild(t,m);
+    });
+    main.normalize();
+  }
+  function doSearch(){
+    var q=(input.value||'').trim();
+    if(!q){clearHits();status.innerHTML='';return;}
+    clearHits();
+    var walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        if(!n.nodeValue.trim())return NodeFilter.FILTER_REJECT;
+        if(n.parentElement.closest('script,style'))return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var nodes=[],n,count=0;
+    while((n=walker.nextNode()))nodes.push(n);
+    nodes.forEach(function(node){
+      var text=node.nodeValue;
+      var idx=text.indexOf(q);
+      if(idx===-1)return;
+      var frag=document.createDocumentFragment();
+      var last=0;
+      while(idx!==-1){
+        frag.appendChild(document.createTextNode(text.slice(last,idx)));
+        var mark=document.createElement('mark');
+        mark.className='hit';
+        mark.textContent=text.slice(idx,idx+q.length);
+        frag.appendChild(mark);
+        count++;
+        last=idx+q.length;
+        idx=text.indexOf(q,last);
+      }
+      frag.appendChild(document.createTextNode(text.slice(last)));
+      node.parentNode.replaceChild(frag,node);
+    });
+    if(count===0){
+      status.innerHTML='<p>没有找到「'+q.replace(/[<>&]/g,'')+'」相关内容，可试试「黑麦草」「越冬水」「播量」。</p>';
+    }else{
+      status.innerHTML='<p>找到 '+count+' 处与「'+q.replace(/[<>&]/g,'')+'」匹配的内容。</p>';
+      var firstMark=main.querySelector('mark.hit');
+      if(firstMark)firstMark.scrollIntoView({behavior:'smooth',block:'center'});
+    }
+  }
+  btn.addEventListener('click',doSearch);
+  input.addEventListener('keydown',function(e){
+    if(e.key==='Enter'){e.preventDefault();doSearch();}
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"WebSite",
+  "name":"青青草久久艹",
+  "description":"冷季型草坪草种选择与养护实操记录，涵盖播量、修剪、越冬水与病害判断。",
+  "inLanguage":"zh-CN"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"秋播黑麦草，播多少克一平方米合适？",
+      "acceptedAnswer":{"@type":"Answer","text":"单播建议 25—30 g/m²。坡地或雨水冲刷明显的地块提高到 30—35 g/m²；混播时按纯播量的比例折算，不直接叠加总数。"}
+    },
+    {
+      "@type":"Question",
+      "name":"草坪越冬水什么时候浇最好？",
+      "acceptedAnswer":{"@type":"Answer","text":"看土壤封冻时间，不看固定日期。夜间稳定低于 0℃、5 cm 土层尚未封冻时浇透，北方多在 11 月中下旬。"}
+    },
+    {
+      "@type":"Question",
+      "name":"草坪出现褐色圆斑，是褐斑病还是缺肥？",
+      "acceptedAnswer":{"@type":"Answer","text":"褐斑病斑多呈圆形或不规则片状，边缘深褐、中央灰白，清晨有菌丝；缺氮黄化则整片均匀发黄、叶尖先退绿。低洼积水处发病更重。"}
+    },
+    {
+      "@type":"Question",
+      "name":"修剪留茬高度留几厘米？",
+      "acceptedAnswer":{"@type":"Answer","text":"黑麦草成坪后留 5—6 cm，高羊茅 6—7 cm，草地早熟禾 4—5 cm。秋末最后一次修剪略低 1—1.5 cm。每次修剪不超过草高的三分之一。"}
+    },
+    {
+      "@type":"Question",
+      "name":"北向阳台能种草坪吗？",
+      "acceptedAnswer":{"@type":"Answer","text":"能种，但草种要换。每日直射光 3—4 小时优先紫羊茅，或与草地早熟禾混播；黑麦草在弱光下徒长明显。阳台种植还要注意盆土排水。"}
+    },
+    {
+      "@type":"Question",
+      "name":"白三叶和草坪混播，比例多少合适？",
+      "acceptedAnswer":{"@type":"Answer","text":"三叶草占比控制在 10%—20%，最多不超过 30%。比例高了行间踩踏容易倒伏，割草机也容易撕断匍匐茎。"}
+    }
+  ]
+}
+</script>
+
+</body>
+    </html>
